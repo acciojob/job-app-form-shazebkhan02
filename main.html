@@ -19,14 +19,21 @@
         <input type="email" id="email" required>
 
         <label>Gender:</label>
-		
 
+		<label>
+         <input type="radio" name="gender" value="male" required>
+          Male
+       </label>
 
-        <input type="radio" id="gender_m" name="gender" value="male" required>
-        <label for="gender_m">Male</label>
+      <label>
+       <input type="radio" name="gender" value="female" required>
+        Female
+      </label>
 
-        <input type="radio" id="gender_f" name="gender" value="female" required>
-        <label for="gender_f">Female</label>
+     <label>
+      <input type="radio" name="gender" value="other" required>
+      Other
+     </label>
 
         <label for="laptop">Laptop Brands:</label>
         <select id="laptop">
@@ -45,8 +52,8 @@
         <label for="password">Password:</label>
         <input type="password" id="password" required>
 
-        <label for="portfolio">Portfolio URL:</label>
-        <input type="url" id="portfolio" required>
+		<label for="portfolio">Portfolio URL:</label>
+        <input type="url" id="portfolio" name="portfolio" required>  
 
         <button type="submit">Submit</button>
 
